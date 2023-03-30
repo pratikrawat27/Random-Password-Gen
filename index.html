@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+
+	<title>Random Password Gen</title>
+
+
+</head>
+
+<body>
+
+	<div class="container">
+
+        <form name="gen" action="">
+			<div class="col-xs-12">
+              <input type="text" size="18" name="output" class="out" disabled placeholder="Your Password">
+              <input type="button" value="Generate Password" onclick="filform(this.form.length.value)" class="btn btn-success btn-block myBtn"> <br> <!-- btn-block is for rounding the button -->
+              <div class="col-xs-10"><strong class="pass">Password Length : </strong></div> <!-- important content -->
+			  <div class="col-xs-2"><input type="text" name="length" size="3" value="6" class="in"></div> <!-- filform will take the length and value -->
+		    </div>
+		</form>
+
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="JS/script.js"></script> 
+
+
+</body>
+
+</html>
